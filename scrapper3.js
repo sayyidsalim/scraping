@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
 // URL halaman saham KSEI (ubah ke halaman target KSEI yang tepat)
-const URL = 'https://www.ksei.co.id/saham/price-history'; // Contoh, sesuaikan dengan URL sebenarnya
+const URL = ''; // Contoh, sesuaikan dengan URL sebenarnya
 
 // Fungsi scraping
 const scrapeStockData = async () => {

@@ -7,7 +7,7 @@ const createCsvWriter = require('csv-writer').createObjectCsvWriter;
   const page = await browser.newPage();
 
   // Pergi ke halaman data saham IDX
-  await page.goto('https://www.idx.co.id/id/data-pasar/ringkasan-perdagangan/ringkasan-saham', {
+  await page.goto('', {
     waitUntil: 'domcontentloaded',
   });
 

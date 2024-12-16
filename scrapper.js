@@ -2,7 +2,7 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
 const URL =
-  "https://www.idx.co.id/id/data-pasar/ringkasan-perdagangan/ringkasan-saham"; // Ganti dengan URL yang ingin discrape
+  ""; // Ganti dengan URL yang ingin discrape
 
 // Fungsi utama scraping
 const scrapeData = async () => {

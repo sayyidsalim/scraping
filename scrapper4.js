@@ -7,7 +7,7 @@ const puppeteer = require("puppeteer");
 
   // Pergi ke halaman URL IDX
   await page.goto(
-    "https://www.idx.co.id/id/data-pasar/ringkasan-perdagangan/ringkasan-saham",
+    "",
     {
       waitUntil: "domcontentloaded", // Tunggu sampai konten dimuat
     }
